@@ -1,0 +1,111 @@
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+} */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 550px;
+  width: 550px;
+  background-color: black;
+}
+.container-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 480px;
+  width: 480px;
+  background-color: aliceblue;
+  border:transparent;
+  border-radius: 20px;
+  flex-direction: column;
+}
+
+
+.dice-contain {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap:20px;
+}
+
+.dice-die {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.dice-die:hover{
+  background-color: #00e600;
+  color:white;
+}
+
+/* .dice-die:active{
+  background-color: #00e600;
+  color:white;
+} */
+
+.roll-button {
+  margin-top: 35px;
+  height: 40px;
+  width: 120px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.05em;
+  border:transparent;
+  border-radius: 5px;
+  background: #00e600;
+  color:whitesmoke;
+  opacity: 100%;
+  cursor: pointer;
+  
+}
+
+.roll-button:hover{
+  /* background-color: #00cc00; */
+  opacity: 70%;
+  transition: all 0.3s;
+}
+
+.roll-button:active{
+  background-color: #00cc00; 
+}
+
+
+.tenzies-para {
+  font-family: cursive;
+  margin: 30px 10px;
+  text-align: center;
+}
+
+.tenzies-main{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  
+  
+  
+}
+
+.tenzies-result {
+  font-family: cursive;
+  margin:0;
+  font-size: 3rem;
+  transition: all .3s;
+  
+}
+
